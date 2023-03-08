@@ -36,20 +36,13 @@ se faz parte da sequência de fibonacci: """)))
 
 # Exercício 4
 
-# Para carro(A) -> S = So + V*t
-# S = x
-# So = 0
-# V = 110 km/h
-# t = 1h
+# Para carro(A) -> S = So + V*t         # Para caminhão(B) -> S = So + V*t
+# S = X                                 # S = X
+# So = 0                                # So = 100 km
+# V = 110 km/h                          # V = 80 km/h
+# t = 1h                                # t = 1 + (1/6) h
 
-# Para caminhão(B) -> S = So + V*t
-# S = x
-# So = 100 km
-# V = 80 km/h
-# t = 1 + (1/6) h
-
-# X(A) = 0 + 110 * t
-# X(B) = 100 - 80 * (1.166 * t)
+# X(A) = 0 + 110 * t                    # X(B) = 100 - 80 * (1.166 * t)
 
 # X(A) = X(B)
 # 0 + 110 * t = 100 - 80 * (1.166 * t)
